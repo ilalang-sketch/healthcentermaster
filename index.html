@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<title>Clinic Carave - Klinik Gigi Profesional & Ramah</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="Clinic Carave - Professional General & Dental Services">
+<meta name="keywords" content="Klinik Gigi, Dokter Gigi, Terapis Gigi, Spesialis Gigi">
+<meta name="author" content="Clinic Carave">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+<style>
+body {
+    background-color: #1e7ac0;
+    color: #2c3e50;
+}
+
+.navbar {
+    background-color: #0d47a1;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+header {
+    background: #77aff3;
+    color: white;
+    padding: 10px 0;
+}
+#about {
+    background-color: #91b0eb !important;
+}
+
+.section-blue {
+    background-color: #1565c0;
+    color: white;
+    padding: 60px 0;
+}
+
+.section-light-blue {
+    background-color: #e3f2fd;
+    padding: 60px 0;
+}
+
+.section-title h2 {
+    color: #0d47a1;
+    font-weight: 600;
+}
+
+.team-info {
+    background-color: #1565c0;
+    color: white;
+    padding: 20px;
+}
+
+.team-info h3,
+.team-info p {
+    color: #ffffff !important;
+}
+#team .team-thumb img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.news-info {
+    background: #ffffff;
+    padding: 20px;
+    border-bottom: 4px solid #1565c0;
+}
+
+.btn-custom {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: #0d47a1;
+    color: white;
+    padding: 30px 0;
+}
+/* ============================= */
+/* FOOTER TEXT WARNA PUTIH */
+
+footer,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer a,
+footer span,
+footer i {
+    color: #ffffff !important;
+}
+
+
+
+/* ============================= */
+/* JAM OPERASIONAL */
+.section-light-blue.text-center {
+    background: linear-gradient(135deg, #F5FAFE, #E3F2F9);
+}
+
+/* ============================= */
+/* TEAM */
+#team {
+    background: linear-gradient(135deg, #e1f0f8, #EDF7FC);
+}
+
+/* ============================= */
+/* ARTIKEL */
+#news {
+    background: linear-gradient(135deg, #FFFFFF, #EAF6FB);
+}
+
+/* ============================= */
+/* APPOINTMENT */
+#appointment {
+    background: linear-gradient(135deg, #e1f0f8, #E1F1F8);
+}
+
+
+/* ============================= */
+/* LOKASI */
+.location-section {
+    background: linear-gradient(135deg, #e3f7ff, #cceeff);
+}
+.location-title {
+    color: #161718;
+    font-weight: 600;
+    margin-top: 40px;     /* jarak dari atas */
+    margin-bottom: 50px;  /* jarak ke maps */
+}
+.location-section {
+    background-color: #e6fbff;
+    padding: 80px 0;
+
+ /* ===== RAPIKAN CARD ARTIKEL AGAR SEJAJAR ===== */
+#news .news-thumb{
+  background: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#news .news-thumb img{
+  width: 100%;
+  height: 200px;      /* samakan tinggi gambar */
+  object-fit: cover;
+  display: block;
+}
+
+#news .news-info{
+  flex: 1;            /* bikin tinggi isi mengikuti card */
+  display: flex;
+  flex-direction: column;
+}
+
+#news .news-info p{
+  margin-bottom: 0;
+}
+
+#news .news-info::after{
+  content: "";
+  display: block;
+  height: 4px;
+  background: #1565c0;
+  margin-top: auto;  /* dorong garis ke bawah */
+}
+
+/* FIX TOMBOL SUBMIT BIAR TULISAN MUNCUL */
+.btn-custom{
+  background-color: #1565c0 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  border: none;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 16px;
+}
+
+.btn-custom:hover,
+.btn-custom:focus{
+  background-color: #0d47a1 !important;
+  color: #ffffff !important;
+}
+}
+
+</style>
+
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<header>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-5">
+<p>Selamat Datang di Clinic Carave - Klinik Gigi Profesional & Ramah</p>
+</div>
+<div class="col-md-8 col-sm-7 text-align-right">
+<span><i class="fa fa-phone"></i> +62 812-3456-7890</span>
+<span><i class="fa fa-calendar-plus-o"></i> Senin - Sabtu (08.00 - 20.00)</span>
+<span><i class="fa fa-envelope-o"></i> info@cliniccarave.com</span>
+</div>
+</div>
+</div>
+</header>
+
+<!-- MENU -->
+<section class="navbar navbar-default navbar-static-top">
+<div class="container">
+
+<div class="navbar-header">
+<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon icon-bar"></span>
+<span class="icon icon-bar"></span>
+<span class="icon icon-bar"></span>
+</button>
+
+<a href="index.html" class="navbar-brand">
+<i class="fa fa-heartbeat"></i> Clinic Carave
+</a>
+</div>
+
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#top" class="smoothScroll">Beranda</a></li>
+<li><a href="#about" class="smoothScroll">Tentang</a></li>
+<li><a href="#team" class="smoothScroll">Tenaga Medis</a></li>
+<li><a href="#news" class="smoothScroll">informasi</a></li>
+<li><a href="#google-map" class="smoothScroll">Lokasi</a></li>
+<li class="appointment-btn"><a href="#appointment">Janji Temu</a></li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- SLIDER (Slide pertama tidak diubah) -->
+<section id="home" class="slider" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row">
+<div class="owl-carousel owl-theme">
+
+<div class="item item-first">
+<div class="caption">
+<div class="col-md-offset-1 col-md-10">
+<h3>Your Health is Our Priority</h3>
+<h1>Professional & Trusted Medical Care</h1>
+<a href="#team" class="section-btn btn btn-default smoothScroll">tim medis kami</a>
+</div>
+</div>
+</div>
+
+<div class="item item-second">
+<div class="caption">
+<div class="col-md-offset-1 col-md-10">
+<h3>Pelayanan Gigi Modern & Komprehensif</h3>
+<h1>Klinik Gigi Profesional</h1>
+<a href="#about" class="section-btn btn btn-default btn-blue smoothScroll">Selengkapnya</a>
+</div>
+</div>
+</div>
+
+<div class="item item-third">
+<div class="caption">
+<div class="col-md-offset-1 col-md-10">
+<h3>Senyum Sehat, Percaya Diri Meningkat</h3>
+<h1>Perawatan Gusi & Estetika Gigi</h1>
+<a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Baca Informasi</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT (TIDAK DIUBAH SESUAI PERINTAH) -->
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<div class="about-info">
+<h2>Welcome to Clinic Carave</h2>
+<p>Clinic Carave adalah klinik umum dan klinik gigi profesional yang berkomitmen untuk memberikan pelayanan kesehatan berkualitas tinggi dengan pendekatan yang berfokus pada pasien. Setiap tindakan medis dilakukan dengan standar profesionalisme dan perhatian penuh terhadap kebutuhan pasien.</p>
+<p>Kami menyediakan layanan kesehatan umum dan kedokteran gigi secara menyeluruh, meliputi konsultasi medis, pemeriksaan rutin, scaling dan pembersihan karang gigi, perawatan gusi (periodonsia), perawatan gigi anak, penambalan, pencabutan, pemasangan behel (ortodonti), serta pembuatan gigi tiruan (prostodonti). Seluruh layanan diberikan secara profesional dengan mengutamakan keselamatan, ketepatan, dan kenyamanan pasien.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- JAM OPERASIONAL -->
+<section class="section-light-blue text-center">
+<div class="container">
+<h2>Jam Operasional</h2>
+<p><strong>Senin - Sabtu:</strong> 08.00 - 20.00</p>
+<p><strong>Minggu & Hari Libur Nasional:</strong> Tutup</p>
+</div>
+</section>
+
+<!-- TENAGA MEDIS (8 ORANG) -->
+<section id="team">
+<div class="container">
+<h2 class="text-center">Tim Tenaga Medis</h2>
+<div class="row">
+
+<!-- Terapis -->
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image1.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>Aliah Permata</h3>
+<p>Terapis Gigi & Mulut</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image2.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>Nurkhalisah</h3>
+<p>Terapis Gigi & Mulut</p>
+</div>
+</div>
+</div>
+
+<!-- Dokter Umum -->
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image3.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Ayu Alice</h3>
+<p>Dokter Gigi Umum</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image4.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Nadiya</h3>
+<p>Dokter Gigi Umum</p>
+</div>
+</div>
+</div>
+
+<!-- Spesialis -->
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image5.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Sitti Kadriani, Sp.Perio</h3>
+<p>Spesialis Periodonsia</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image6.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Nurfadhillah, Sp.KGA</h3>
+<p>Spesialis Gigi Anak</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image7.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Muh. Syahrun, Sp.Pros</h3>
+<p>Spesialis Prostodonti</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="team-thumb">
+<img src="images/team-image8.jpeg" class="img-responsive">
+<div class="team-info">
+<h3>drg. Muh. Fathir, Sp.Ort</h3>
+<p>Spesialis Ortodonti</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- NEWS (FOTO TIDAK DIUBAH) -->
+<section id="news" class="section-light-blue">
+<div class="container">
+<h2 class="text-center">Tahukah Kamu</h2>
+
+<div class="row">
+
+<div class="col-md-4 col-sm-6">
+<div class="news-thumb">
+<img src="images/news-image1.jpg" class="img-responsive">
+<div class="news-info">
+<h3>Oral health yang baik memperkuat imun</h3>
+<p>gusi dan gigi yang sehat membantu melawan infeksi. Peradangan di mulut bisa melemahkan sistem kekebalan dan membuat tubuh lebih rentan sakit.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6">
+<div class="news-thumb">
+<img src="images/news-image2.jpg" class="img-responsive">
+<div class="news-info">
+<h3>Gigi keropos dapat menandakan diabetes</h3>
+<p>Gigi atau gusi yang sering berdarah bisa menjadi tanda awal diabetes karena kadar gula darah tinggi mempengaruhi kesehatan mulut.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6">
+<div class="news-thumb">
+<img src="images/news-image3.jpg" class="img-responsive">
+<div class="news-info">
+<h3>Sikat gigi terlalu keras bisa merusak gusi</h3>
+<p>Menyikat gigi terlalu kuat bisa menyebabkan gusi menipis, sensitivitas gigi dan meningkatkan resiko gigi goyah di masa depan.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- APPOINTMENT -->
+<section id="appointment">
+<div class="container">
+<div class="row">
+
+<div class="col-md-6">
+<img src="images/appointment-image.jpg" class="img-responsive">
+</div>
+
+<div class="col-md-6">
+<form>
+<h2>Buat Janji Temu</h2>
+<input type="text" class="form-control" placeholder="Nama Lengkap"><br>
+<input type="email" class="form-control" placeholder="Email"><br>
+<input type="date" class="form-control"><br>
+<input type="tel" class="form-control" placeholder="Nomor Telepon"><br>
+<textarea class="form-control" rows="4" placeholder="Pesan Tambahan"></textarea><br>
+<button type="submit" class="btn btn-custom btn-block">Kirim Janji Temu</button>
+</form>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- GOOGLE MAP  -->
+<section id="google-map" class="location-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="location-title">Lokasi Kami</h2>
+      </div>
+
+      <div class="col-md-10 col-md-offset-1">
+        <div class="map-wrapper">
+          <iframe 
+            src="https://maps.google.com/maps?q=Makassar%20Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%" 
+            height="400" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="container text-center">
+<h4>Clinic Carave</h4>
+<p>Klinik Gigi Profesional & Ramah</p>
+<p><i class="fa fa-phone"></i> +62 812-3456-7890</p>
+<p><i class="fa fa-envelope-o"></i> info@cliniccarave.com</p>
+<p>© 2026 Clinic Carave. All Rights Reserved.</p>
+</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
